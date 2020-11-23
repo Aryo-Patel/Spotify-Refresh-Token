@@ -4,7 +4,8 @@
   "description": "",
   "main": "updateServer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon updateServer.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,9 @@
     "config": "^3.3.2",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "mongodb": "^3.6.3",
     "mongoose": "^5.10.15",
     "nodemon": "^2.0.6",
     "querystring": "^0.2.0",

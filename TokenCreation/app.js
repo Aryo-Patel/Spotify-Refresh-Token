@@ -6,7 +6,7 @@ const http = require('http');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 
-
+const User = require('./models/User');
 const app = express();
 
 
